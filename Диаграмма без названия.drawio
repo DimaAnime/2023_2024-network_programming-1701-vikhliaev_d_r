@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-19T04:39:40.952Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="s9sKAVWSVEkFmxs1XxPn" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-19T04:43:08.341Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="LnwJlCfKBEikWV-aZt2I" version="22.0.4" type="github">
   <diagram name="Страница — 1" id="88BCgNNSw5J-z50wASQ8">
-    <mxGraphModel dx="715" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="656" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -34,7 +34,7 @@
           <mxGeometry x="274" y="230" width="139.86" height="88.11" as="geometry" />
         </mxCell>
         <mxCell id="1Zc8xtplg68NhCLmzazq-17" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;internet&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="303.15000000000003" y="249.05" width="100" height="50" as="geometry" />
+          <mxGeometry x="293.92" y="249.05" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="1Zc8xtplg68NhCLmzazq-18" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;ubuntu server 20.04&lt;br&gt;vpn server&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="1">
           <mxGeometry x="370.21" y="410" width="125" height="140" as="geometry" />
@@ -47,6 +47,12 @@
         </mxCell>
         <mxCell id="1Zc8xtplg68NhCLmzazq-41" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;tun0&lt;br&gt;ipv4 10.15.0.1&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="1">
           <mxGeometry x="198.43" y="410" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1Zc8xtplg68NhCLmzazq-42" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;eth1&lt;br&gt;ipv4 192.168.1.126&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="335" y="130" width="156.25" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1Zc8xtplg68NhCLmzazq-43" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;ovpn-out1&lt;br&gt;ipv4 10.15.0.6&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="207.64000000000001" y="60" width="110" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
