@@ -7,3 +7,5 @@ Author: Vikliaev Dmitriy Romanovich
 Lab: Lab1
 Date of create: 28.09.2023
 Date of finished: --.--.2023
+
+#Лабораторная работа №1 "Установка CHR и Ansible, настройка VPN"
