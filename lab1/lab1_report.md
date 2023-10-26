@@ -17,18 +17,26 @@ Date of finished: --.--.2023
 Целью данной работы является развертывание виртуальной машины на базе платформы Yandex Cloud с установленной системой контроля конфигураций Ansible и установка CHR в VirtualBox
 
 ## Ход работы
+В результате работы будет настроен vpn между клииентом и сервером по протаколу openvpn, передача данных будет осуществлятся по протоколу транспортного уровня tcp.
+
+### Схема связи между клиентом и сервером
+![sheme](https://github.com/DimaAnime/2023_2024-network_programming-1701-vikhliaev_d_r/blob/main/lab1/sheme.png)
+
 В начеле работы была создана виртуальная машина в облачной среде Yandex Cloud с операционной системой "Ubuntu Server 22.04", для использования в качестве vpn сервера.
 ### IP адресс сервера
 ![ip_address_server](https://github.com/DimaAnime/2023_2024-network_programming-1701-vikhliaev_d_r/blob/main/lab1/foreign_ip_server.PNG)
 
 Далее, на локальном пк, с помощью программы virtualbox, была установлена операцтонная система "CHR RouterOS 6.49", для  использования в качестве vpn клиента.
-В качестве протокола vpn был выбран openvpn. На локальной виртульной ОС "Ubuntu 22.04", с помощью программы "easyrsa3", был создан удостоверяющий центр(CA). 
+В качестве протокола vpn был выбран openvpn.
 
-### Схема связи между клиентом и сервером
-![sheme](https://github.com/DimaAnime/2023_2024-network_programming-1701-vikhliaev_d_r/blob/main/lab1/sheme.png)
+На локальной виртульной ОС "Ubuntu 22.04", с помощью программы "easyrsa3", был создан удостоверяющий центр(CA). Затем на клиенте и сервере были зозданы открытый и закрытый ключи, на основе которых были подписаны сертификаты CA.
+
+Для настройки openvpn сервера был сформирован файл конфигурации.
 
 ### Файл конфигурации сервера
 ![server_conf](https://github.com/DimaAnime/2023_2024-network_programming-1701-vikhliaev_d_r/blob/main/lab1/server.conf.png)
+
+В результате запуска программы openvpn был открыт виртуальный сетевой тунель (TUN). 
 
 ### Открытие сетегого тунеля на сервере
 ![ip_server](https://github.com/DimaAnime/2023_2024-network_programming-1701-vikhliaev_d_r/blob/main/lab1/ip%20server.PNG)
