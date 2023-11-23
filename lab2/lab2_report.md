@@ -12,7 +12,7 @@ Group: 1701
 
 Author: Vikliaev Dmitriy Romanovich
 
-Lab: Lab1
+Lab: Lab2
 
 Date of create: 26.10.2023
 
