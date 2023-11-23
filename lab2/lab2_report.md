@@ -127,7 +127,7 @@ ansible_ssh_pass=admin
         msg: "{{ ospf }}"
 ```
 #### Результат работы playbook
-Gjkysq результы вынесен в файл [ok.txt](ok.txt)
+Полный результ вынесен в файл [ok.txt](ok.txt)
 
 ####  Проверка связанности роутеров
 
