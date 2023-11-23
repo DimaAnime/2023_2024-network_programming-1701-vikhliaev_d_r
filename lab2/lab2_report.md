@@ -27,7 +27,7 @@ Date of finished: --.--.2023
 ![ovpn_2_chr](https://github.com/DimaAnime/2023_2024-network_programming-1701-vikhliaev_d_r/blob/main/lab2/ovpn_2_chr.PNG)
 
 #### ping
-![ping_chr_server](https://github.com/DimaAnime/2023_2024-network_programming-1701-vikhliaev_d_r/blob/main/lab2/ping_chr_to_server.PNG)
+![ping_chr_server](https://github.com/DimaAnime/2023_2024-network_programming-1701-vikhliaev_d_r/blob/main/lab2/ping_chr_server.PNG)
 
 ### Ansible
 
