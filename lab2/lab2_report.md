@@ -136,3 +136,6 @@ ansible_ssh_pass=admin
 ![ping1](https://github.com/DimaAnime/2023_2024-network_programming-1701-vikhliaev_d_r/blob/main/lab2/ping1.png)
 
 ![ping2](https://github.com/DimaAnime/2023_2024-network_programming-1701-vikhliaev_d_r/blob/main/lab2/ping2.png)
+
+### Полученная схема связи 
+![shame](https://github.com/DimaAnime/2023_2024-network_programming-1701-vikhliaev_d_r/blob/main/lab2/shame.drawio.png)
