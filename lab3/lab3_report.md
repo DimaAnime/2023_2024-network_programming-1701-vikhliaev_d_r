@@ -74,6 +74,8 @@ playbook для изменения имени устройства и добав
 
 ![playbook](https://github.com/DimaAnime/2023_2024-network_programming-1701-vikhliaev_d_r/blob/main/lab3/playbook.PNG)
 
+![](https://github.com/DimaAnime/2023_2024-network_programming-1701-vikhliaev_d_r/blob/main/lab3/ansible_work.jpg)
+
 ![chr1](https://github.com/DimaAnime/2023_2024-network_programming-1701-vikhliaev_d_r/blob/main/lab3/chr1.PNG)
 ![chr2](https://github.com/DimaAnime/2023_2024-network_programming-1701-vikhliaev_d_r/blob/main/lab3/chr2.PNG)
 
