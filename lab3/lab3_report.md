@@ -22,25 +22,57 @@ Date of finished: --.--.2023
 
 ## Ход работы:
 
-### 1. Поднятие Netbox на VM
-
-Установка posegresql и создание базы данных netbox
 
 
+#### Установка posegresql и создание базы данных netbox
 
-Установка Redis
-
-
-Установка и настройка NetBox
+![ppstgresql](https://github.com/DimaAnime/2023_2024-network_programming-1701-vikhliaev_d_r/blob/main/lab3/postgresql.png)
 
 
-Настройка gunicorn
+#### Установка Redis
 
+![ppstgresql](https://github.com/DimaAnime/2023_2024-network_programming-1701-vikhliaev_d_r/blob/main/lab3/redis.png)
+
+
+#### Установка и настройка NetBox
+
+Содержание файла конфигурации с сгенерированным секретным ключом 
+
+![configpy](https://github.com/DimaAnime/2023_2024-network_programming-1701-vikhliaev_d_r/blob/main/lab3/configpy.PNG)
+
+
+Настройка gunicorn, запуск netbox сервиса в режиме daemon.
+
+![gunicron](https://github.com/DimaAnime/2023_2024-network_programming-1701-vikhliaev_d_r/blob/main/lab3/gunicron.jpg)
 
 
 Установка nginx
+Содержание nginx.conf
+
+![nginx_conf](https://github.com/DimaAnime/2023_2024-network_programming-1701-vikhliaev_d_r/blob/main/lab3/nginx_conf.PNG)
+
+Открытие доступа к графическому интерфейсу netbox
+
+![netbox_interphase](https://github.com/DimaAnime/2023_2024-network_programming-1701-vikhliaev_d_r/blob/main/lab3/netbox_interphase.png)
 
 
 
-### Заполнение информации о CHR в NetBox
+
+![chr_netbox](https://github.com/DimaAnime/2023_2024-network_programming-1701-vikhliaev_d_r/blob/main/lab3/chr_netbox.png)
+
+
+inventory файл для сбора данных об устройствах с api tokenom netbox
+
+![api_token](https://github.com/DimaAnime/2023_2024-network_programming-1701-vikhliaev_d_r/blob/main/lab3/api_token.PNG)
+
+информация об устройствах: [inventory](https://github.com/DimaAnime/2023_2024-network_programming-1701-vikhliaev_d_r/blob/main/lab3/inventory.yml)
+
+
+
+playbook для изменения имени устройства и добавление интерфейса
+
+![playbook](https://github.com/DimaAnime/2023_2024-network_programming-1701-vikhliaev_d_r/blob/main/lab3/playbook.PNG)
+
+![chr1](https://github.com/DimaAnime/2023_2024-network_programming-1701-vikhliaev_d_r/blob/main/lab3/chr1.PNG)
+![chr2](https://github.com/DimaAnime/2023_2024-network_programming-1701-vikhliaev_d_r/blob/main/lab3/chr2.PNG)
 
