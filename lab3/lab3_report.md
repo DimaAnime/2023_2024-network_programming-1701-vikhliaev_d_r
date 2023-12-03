@@ -85,10 +85,23 @@ playbook
 
 ![](https://github.com/DimaAnime/2023_2024-network_programming-1701-vikhliaev_d_r/blob/main/lab3/serial_number_playbook.PNG)
 
+Результат
+
+![](https://github.com/DimaAnime/2023_2024-network_programming-1701-vikhliaev_d_r/blob/main/lab3/ansible_serial_num.png)
+
+chr1
+
+![](https://github.com/DimaAnime/2023_2024-network_programming-1701-vikhliaev_d_r/blob/main/lab3/serial_num_1.jpg)
+
+chr2
+
+![](https://github.com/DimaAnime/2023_2024-network_programming-1701-vikhliaev_d_r/blob/main/lab3/serial_num_2.jpg)
+
 
 ### схема связи
 
 ![](https://github.com/DimaAnime/2023_2024-network_programming-1701-vikhliaev_d_r/blob/main/lab3/shame.drawio.png)
+
 
 
 
