@@ -22,7 +22,7 @@ Date of finished: --.--.2023
 
 ## Ход работы:
 
-
+### Поднятие Netbox на VM
 
 #### Установка posegresql и создание базы данных netbox
 
@@ -56,10 +56,11 @@ Date of finished: --.--.2023
 ![netbox_interphase](https://github.com/DimaAnime/2023_2024-network_programming-1701-vikhliaev_d_r/blob/main/lab3/netbox_interphase.png)
 
 
-
+### Заполнение информации о CHR в Netbox
 
 ![chr_netbox](https://github.com/DimaAnime/2023_2024-network_programming-1701-vikhliaev_d_r/blob/main/lab3/chr_netbox.png)
 
+###  Сохранение всех данных из Netbox в отдельный файл
 
 inventory файл для сбора данных об устройствах с api tokenom netbox
 
@@ -67,7 +68,7 @@ inventory файл для сбора данных об устройствах с
 
 информация об устройствах: [inventory](https://github.com/DimaAnime/2023_2024-network_programming-1701-vikhliaev_d_r/blob/main/lab3/inventory.yml)
 
-
+### Изменение имени устройства, добавление IP адреса на устройство
 
 playbook для изменения имени устройства и добавление интерфейса
 
@@ -75,4 +76,17 @@ playbook для изменения имени устройства и добав
 
 ![chr1](https://github.com/DimaAnime/2023_2024-network_programming-1701-vikhliaev_d_r/blob/main/lab3/chr1.PNG)
 ![chr2](https://github.com/DimaAnime/2023_2024-network_programming-1701-vikhliaev_d_r/blob/main/lab3/chr2.PNG)
+
+### Написать сценарий, позволяющий собрать серийный номер устройства и вносящий серийный номер в Netbox
+
+playbook
+
+![](https://github.com/DimaAnime/2023_2024-network_programming-1701-vikhliaev_d_r/blob/main/lab3/serial_number_playbook.PNG)
+
+
+### схема связи
+
+![](https://github.com/DimaAnime/2023_2024-network_programming-1701-vikhliaev_d_r/blob/main/lab3/shame.drawio.png)
+
+
 
