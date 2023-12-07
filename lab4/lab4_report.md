@@ -140,3 +140,7 @@ control MyDeparser(packet_out packet, in headers hdr) {
 Полученная схема связи
 
 ![](https://github.com/DimaAnime/2023_2024-network_programming-1701-vikhliaev_d_r/blob/main/lab4/sheme1.png)
+
+
+### Задание Implementing Basic Tunneling
+
