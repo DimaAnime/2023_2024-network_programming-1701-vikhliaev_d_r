@@ -28,5 +28,20 @@ Date of finished: --.--.2023
 - клонирование рипозитория https://github.com/p4lang/tutorials/tree/master
 - установка virtualbox
 - установка vargrant
+- Перейти в папку vm-ubuntu-20.04
+- Используя Vagrant развернуть тестовую среду vagrant up
 
-![ppstgresql](https://github.com/DimaAnime/2023_2024-network_programming-1701-vikhliaev_d_r/blob/main/lab3/postgresql.png)
+В результате установки запустилась виртуальная машина с аккаунтами login/password vagrant/vagrant и p4/p4
+
+![](https://github.com/DimaAnime/2023_2024-network_programming-1701-vikhliaev_d_r/blob/main/lab4/launch_vm.png)
+
+
+### Задание Implementing Basic Forwarding
+
+проверка несвязанности устройств
+
+![](https://github.com/DimaAnime/2023_2024-network_programming-1701-vikhliaev_d_r/blob/main/lab4/mininet_ping.png)
+
+проверка связанности устройств
+
+![](https://github.com/DimaAnime/2023_2024-network_programming-1701-vikhliaev_d_r/blob/main/lab4/mininet_ping2.png)
