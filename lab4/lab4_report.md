@@ -136,3 +136,7 @@ control MyDeparser(packet_out packet, in headers hdr) {
 проверка связанности устройств
 
 ![](https://github.com/DimaAnime/2023_2024-network_programming-1701-vikhliaev_d_r/blob/main/lab4/mininet_ping2.png)
+
+Полученная схема связи
+
+![](https://github.com/DimaAnime/2023_2024-network_programming-1701-vikhliaev_d_r/blob/main/lab4/sheme1.png)
